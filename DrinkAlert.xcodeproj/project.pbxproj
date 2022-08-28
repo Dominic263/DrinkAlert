@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B2922228BB569A001E01AF /* DrinkAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2922128BB569A001E01AF /* DrinkAlertApp.swift */; };
+		49B2922428BB569A001E01AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2922328BB569A001E01AF /* ContentView.swift */; };
+		49B2922628BB569E001E01AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B2922528BB569E001E01AF /* Assets.xcassets */; };
+		49B2922928BB569E001E01AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B2922828BB569E001E01AF /* Preview Assets.xcassets */; };
+		49B2923328BB569E001E01AF /* DrinkAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2923228BB569E001E01AF /* DrinkAlertTests.swift */; };
+		49B2923D28BB569E001E01AF /* DrinkAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2923C28BB569E001E01AF /* DrinkAlertUITests.swift */; };
+		49B2923F28BB569E001E01AF /* DrinkAlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2923E28BB569E001E01AF /* DrinkAlertUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49B2922F28BB569E001E01AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B2921628BB5699001E01AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B2921D28BB569A001E01AF;
+			remoteInfo = DrinkAlert;
+		};
+		49B2923928BB569E001E01AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B2921628BB5699001E01AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B2921D28BB569A001E01AF;
+			remoteInfo = DrinkAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49B2921E28BB569A001E01AF /* DrinkAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B2922128BB569A001E01AF /* DrinkAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAlertApp.swift; sourceTree = "<group>"; };
+		49B2922328BB569A001E01AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49B2922528BB569E001E01AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49B2922828BB569E001E01AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49B2922E28BB569E001E01AF /* DrinkAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B2923228BB569E001E01AF /* DrinkAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAlertTests.swift; sourceTree = "<group>"; };
+		49B2923828BB569E001E01AF /* DrinkAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B2923C28BB569E001E01AF /* DrinkAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAlertUITests.swift; sourceTree = "<group>"; };
+		49B2923E28BB569E001E01AF /* DrinkAlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B2921B28BB569A001E01AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B2922B28BB569E001E01AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B2923528BB569E001E01AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B2921528BB5699001E01AF = {
+			isa = PBXGroup;
+			children = (
+				49B2922028BB569A001E01AF /* DrinkAlert */,
+				49B2923128BB569E001E01AF /* DrinkAlertTests */,
+				49B2923B28BB569E001E01AF /* DrinkAlertUITests */,
+				49B2921F28BB569A001E01AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B2921F28BB569A001E01AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B2921E28BB569A001E01AF /* DrinkAlert.app */,
+				49B2922E28BB569E001E01AF /* DrinkAlertTests.xctest */,
+				49B2923828BB569E001E01AF /* DrinkAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B2922028BB569A001E01AF /* DrinkAlert */ = {
+			isa = PBXGroup;
+			children = (
+				49B2922128BB569A001E01AF /* DrinkAlertApp.swift */,
+				49B2922328BB569A001E01AF /* ContentView.swift */,
+				49B2922528BB569E001E01AF /* Assets.xcassets */,
+				49B2922728BB569E001E01AF /* Preview Content */,
+			);
+			path = DrinkAlert;
+			sourceTree = "<group>";
+		};
+		49B2922728BB569E001E01AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49B2922828BB569E001E01AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49B2923128BB569E001E01AF /* DrinkAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				49B2923228BB569E001E01AF /* DrinkAlertTests.swift */,
+			);
+			path = DrinkAlertTests;
+			sourceTree = "<group>";
+		};
+		49B2923B28BB569E001E01AF /* DrinkAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49B2923C28BB569E001E01AF /* DrinkAlertUITests.swift */,
+				49B2923E28BB569E001E01AF /* DrinkAlertUITestsLaunchTests.swift */,
+			);
+			path = DrinkAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B2921D28BB569A001E01AF /* DrinkAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B2924228BB569E001E01AF /* Build configuration list for PBXNativeTarget "DrinkAlert" */;
+			buildPhases = (
+				49B2921A28BB569A001E01AF /* Sources */,
+				49B2921B28BB569A001E01AF /* Frameworks */,
+				49B2921C28BB569A001E01AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkAlert;
+			productName = DrinkAlert;
+			productReference = 49B2921E28BB569A001E01AF /* DrinkAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B2922D28BB569E001E01AF /* DrinkAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B2924528BB569E001E01AF /* Build configuration list for PBXNativeTarget "DrinkAlertTests" */;
+			buildPhases = (
+				49B2922A28BB569E001E01AF /* Sources */,
+				49B2922B28BB569E001E01AF /* Frameworks */,
+				49B2922C28BB569E001E01AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B2923028BB569E001E01AF /* PBXTargetDependency */,
+			);
+			name = DrinkAlertTests;
+			productName = DrinkAlertTests;
+			productReference = 49B2922E28BB569E001E01AF /* DrinkAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49B2923728BB569E001E01AF /* DrinkAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B2924828BB569E001E01AF /* Build configuration list for PBXNativeTarget "DrinkAlertUITests" */;
+			buildPhases = (
+				49B2923428BB569E001E01AF /* Sources */,
+				49B2923528BB569E001E01AF /* Frameworks */,
+				49B2923628BB569E001E01AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B2923A28BB569E001E01AF /* PBXTargetDependency */,
+			);
+			name = DrinkAlertUITests;
+			productName = DrinkAlertUITests;
+			productReference = 49B2923828BB569E001E01AF /* DrinkAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B2921628BB5699001E01AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					49B2921D28BB569A001E01AF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					49B2922D28BB569E001E01AF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 49B2921D28BB569A001E01AF;
+					};
+					49B2923728BB569E001E01AF = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 49B2921D28BB569A001E01AF;
+					};
+				};
+			};
+			buildConfigurationList = 49B2921928BB5699001E01AF /* Build configuration list for PBXProject "DrinkAlert" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49B2921528BB5699001E01AF;
+			productRefGroup = 49B2921F28BB569A001E01AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B2921D28BB569A001E01AF /* DrinkAlert */,
+				49B2922D28BB569E001E01AF /* DrinkAlertTests */,
+				49B2923728BB569E001E01AF /* DrinkAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B2921C28BB569A001E01AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2922928BB569E001E01AF /* Preview Assets.xcassets in Resources */,
+				49B2922628BB569E001E01AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B2922C28BB569E001E01AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B2923628BB569E001E01AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B2921A28BB569A001E01AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2922428BB569A001E01AF /* ContentView.swift in Sources */,
+				49B2922228BB569A001E01AF /* DrinkAlertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B2922A28BB569E001E01AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2923328BB569E001E01AF /* DrinkAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B2923428BB569E001E01AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2923F28BB569E001E01AF /* DrinkAlertUITestsLaunchTests.swift in Sources */,
+				49B2923D28BB569E001E01AF /* DrinkAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49B2923028BB569E001E01AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B2921D28BB569A001E01AF /* DrinkAlert */;
+			targetProxy = 49B2922F28BB569E001E01AF /* PBXContainerItemProxy */;
+		};
+		49B2923A28BB569E001E01AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B2921D28BB569A001E01AF /* DrinkAlert */;
+			targetProxy = 49B2923928BB569E001E01AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49B2924028BB569E001E01AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49B2924128BB569E001E01AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B2924328BB569E001E01AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrinkAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = DR869849C7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.DrinkAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B2924428BB569E001E01AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrinkAlert/Preview Content\"";
+				DEVELOPMENT_TEAM = DR869849C7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.DrinkAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49B2924628BB569E001E01AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR869849C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.DrinkAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkAlert.app/DrinkAlert";
+			};
+			name = Debug;
+		};
+		49B2924728BB569E001E01AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR869849C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.DrinkAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkAlert.app/DrinkAlert";
+			};
+			name = Release;
+		};
+		49B2924928BB569E001E01AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR869849C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.DrinkAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrinkAlert;
+			};
+			name = Debug;
+		};
+		49B2924A28BB569E001E01AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR869849C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.DrinkAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrinkAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B2921928BB5699001E01AF /* Build configuration list for PBXProject "DrinkAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2924028BB569E001E01AF /* Debug */,
+				49B2924128BB569E001E01AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B2924228BB569E001E01AF /* Build configuration list for PBXNativeTarget "DrinkAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2924328BB569E001E01AF /* Debug */,
+				49B2924428BB569E001E01AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B2924528BB569E001E01AF /* Build configuration list for PBXNativeTarget "DrinkAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2924628BB569E001E01AF /* Debug */,
+				49B2924728BB569E001E01AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B2924828BB569E001E01AF /* Build configuration list for PBXNativeTarget "DrinkAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2924928BB569E001E01AF /* Debug */,
+				49B2924A28BB569E001E01AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B2921628BB5699001E01AF /* Project object */;
+}
