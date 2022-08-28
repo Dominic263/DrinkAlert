@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		499E5E8F28BB6A82006B5D49 /* AppCore in Frameworks */ = {isa = PBXBuildFile; productRef = 499E5E8E28BB6A82006B5D49 /* AppCore */; };
+		499E5E9128BB6A96006B5D49 /* Onboard in Frameworks */ = {isa = PBXBuildFile; productRef = 499E5E9028BB6A96006B5D49 /* Onboard */; };
 		49B2922228BB569A001E01AF /* DrinkAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2922128BB569A001E01AF /* DrinkAlertApp.swift */; };
 		49B2922428BB569A001E01AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2922328BB569A001E01AF /* ContentView.swift */; };
 		49B2922628BB569E001E01AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B2922528BB569E001E01AF /* Assets.xcassets */; };
@@ -14,9 +16,24 @@
 		49B2923328BB569E001E01AF /* DrinkAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2923228BB569E001E01AF /* DrinkAlertTests.swift */; };
 		49B2923D28BB569E001E01AF /* DrinkAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2923C28BB569E001E01AF /* DrinkAlertUITests.swift */; };
 		49B2923F28BB569E001E01AF /* DrinkAlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2923E28BB569E001E01AF /* DrinkAlertUITestsLaunchTests.swift */; };
+		49B2924D28BB56E0001E01AF /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 49B2924C28BB56E0001E01AF /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		499E5E5A28BB5BEC006B5D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B2921628BB5699001E01AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B2921D28BB569A001E01AF;
+			remoteInfo = DrinkAlert;
+		};
+		499E5E7D28BB610C006B5D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B2921628BB5699001E01AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B2921D28BB569A001E01AF;
+			remoteInfo = DrinkAlert;
+		};
 		49B2922F28BB569E001E01AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 49B2921628BB5699001E01AF /* Project object */;
@@ -33,7 +50,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		499E5E6428BB5BEC006B5D49 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		499E5E5628BB5BEC006B5D49 /* AppCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499E5E7928BB610C006B5D49 /* OnboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B2921E28BB569A001E01AF /* DrinkAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B2922128BB569A001E01AF /* DrinkAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAlertApp.swift; sourceTree = "<group>"; };
 		49B2922328BB569A001E01AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,13 +76,31 @@
 		49B2923828BB569E001E01AF /* DrinkAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B2923C28BB569E001E01AF /* DrinkAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAlertUITests.swift; sourceTree = "<group>"; };
 		49B2923E28BB569E001E01AF /* DrinkAlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49B2924E28BB57A8001E01AF /* drink-alert-app */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "drink-alert-app"; path = "../drink-alert-app"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		499E5E5328BB5BEC006B5D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499E5E7628BB610C006B5D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49B2921B28BB569A001E01AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499E5E9128BB6A96006B5D49 /* Onboard in Frameworks */,
+				49B2924D28BB56E0001E01AF /* ComposableArchitecture in Frameworks */,
+				499E5E8F28BB6A82006B5D49 /* AppCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +121,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		499E5E8D28BB6A82006B5D49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		49B2921528BB5699001E01AF = {
 			isa = PBXGroup;
 			children = (
 				49B2922028BB569A001E01AF /* DrinkAlert */,
+				49B2924E28BB57A8001E01AF /* drink-alert-app */,
 				49B2923128BB569E001E01AF /* DrinkAlertTests */,
 				49B2923B28BB569E001E01AF /* DrinkAlertUITests */,
 				49B2921F28BB569A001E01AF /* Products */,
+				499E5E8D28BB6A82006B5D49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +146,8 @@
 				49B2921E28BB569A001E01AF /* DrinkAlert.app */,
 				49B2922E28BB569E001E01AF /* DrinkAlertTests.xctest */,
 				49B2923828BB569E001E01AF /* DrinkAlertUITests.xctest */,
+				499E5E5628BB5BEC006B5D49 /* AppCoreTests.xctest */,
+				499E5E7928BB610C006B5D49 /* OnboardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +191,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		499E5E5528BB5BEC006B5D49 /* AppCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499E5E6A28BB5BEC006B5D49 /* Build configuration list for PBXNativeTarget "AppCoreTests" */;
+			buildPhases = (
+				499E5E5228BB5BEC006B5D49 /* Sources */,
+				499E5E5328BB5BEC006B5D49 /* Frameworks */,
+				499E5E5428BB5BEC006B5D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499E5E5B28BB5BEC006B5D49 /* PBXTargetDependency */,
+			);
+			name = AppCoreTests;
+			productName = AppCoreTests;
+			productReference = 499E5E5628BB5BEC006B5D49 /* AppCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499E5E7828BB610C006B5D49 /* OnboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499E5E8A28BB610C006B5D49 /* Build configuration list for PBXNativeTarget "OnboardTests" */;
+			buildPhases = (
+				499E5E7528BB610C006B5D49 /* Sources */,
+				499E5E7628BB610C006B5D49 /* Frameworks */,
+				499E5E7728BB610C006B5D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499E5E7E28BB610C006B5D49 /* PBXTargetDependency */,
+			);
+			name = OnboardTests;
+			productName = OnboardTests;
+			productReference = 499E5E7928BB610C006B5D49 /* OnboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		49B2921D28BB569A001E01AF /* DrinkAlert */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49B2924228BB569E001E01AF /* Build configuration list for PBXNativeTarget "DrinkAlert" */;
@@ -137,12 +234,18 @@
 				49B2921A28BB569A001E01AF /* Sources */,
 				49B2921B28BB569A001E01AF /* Frameworks */,
 				49B2921C28BB569A001E01AF /* Resources */,
+				499E5E6428BB5BEC006B5D49 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DrinkAlert;
+			packageProductDependencies = (
+				49B2924C28BB56E0001E01AF /* ComposableArchitecture */,
+				499E5E8E28BB6A82006B5D49 /* AppCore */,
+				499E5E9028BB6A96006B5D49 /* Onboard */,
+			);
 			productName = DrinkAlert;
 			productReference = 49B2921E28BB569A001E01AF /* DrinkAlert.app */;
 			productType = "com.apple.product-type.application";
@@ -193,6 +296,14 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					499E5E5528BB5BEC006B5D49 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 49B2921D28BB569A001E01AF;
+					};
+					499E5E7828BB610C006B5D49 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 49B2921D28BB569A001E01AF;
+					};
 					49B2921D28BB569A001E01AF = {
 						CreatedOnToolsVersion = 13.3;
 					};
@@ -215,6 +326,9 @@
 				Base,
 			);
 			mainGroup = 49B2921528BB5699001E01AF;
+			packageReferences = (
+				49B2924B28BB56E0001E01AF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 49B2921F28BB569A001E01AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,11 +336,27 @@
 				49B2921D28BB569A001E01AF /* DrinkAlert */,
 				49B2922D28BB569E001E01AF /* DrinkAlertTests */,
 				49B2923728BB569E001E01AF /* DrinkAlertUITests */,
+				499E5E5528BB5BEC006B5D49 /* AppCoreTests */,
+				499E5E7828BB610C006B5D49 /* OnboardTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		499E5E5428BB5BEC006B5D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499E5E7728BB610C006B5D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49B2921C28BB569A001E01AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,6 +383,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		499E5E5228BB5BEC006B5D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499E5E7528BB610C006B5D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49B2921A28BB569A001E01AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +426,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		499E5E5B28BB5BEC006B5D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B2921D28BB569A001E01AF /* DrinkAlert */;
+			targetProxy = 499E5E5A28BB5BEC006B5D49 /* PBXContainerItemProxy */;
+		};
+		499E5E7E28BB610C006B5D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B2921D28BB569A001E01AF /* DrinkAlert */;
+			targetProxy = 499E5E7D28BB610C006B5D49 /* PBXContainerItemProxy */;
+		};
 		49B2923028BB569E001E01AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 49B2921D28BB569A001E01AF /* DrinkAlert */;
@@ -295,6 +449,80 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		499E5E6728BB5BEC006B5D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR869849C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.AppCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkAlert.app/DrinkAlert";
+			};
+			name = Debug;
+		};
+		499E5E6828BB5BEC006B5D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR869849C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.AppCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkAlert.app/DrinkAlert";
+			};
+			name = Release;
+		};
+		499E5E8B28BB610C006B5D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR869849C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.OnboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkAlert.app/DrinkAlert";
+			};
+			name = Debug;
+		};
+		499E5E8C28BB610C006B5D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR869849C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.final.OnboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkAlert.app/DrinkAlert";
+			};
+			name = Release;
+		};
 		49B2924028BB569E001E01AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,6 +653,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +683,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,6 +776,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		499E5E6A28BB5BEC006B5D49 /* Build configuration list for PBXNativeTarget "AppCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499E5E6728BB5BEC006B5D49 /* Debug */,
+				499E5E6828BB5BEC006B5D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499E5E8A28BB610C006B5D49 /* Build configuration list for PBXNativeTarget "OnboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499E5E8B28BB610C006B5D49 /* Debug */,
+				499E5E8C28BB610C006B5D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		49B2921928BB5699001E01AF /* Build configuration list for PBXProject "DrinkAlert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -583,6 +831,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		49B2924B28BB56E0001E01AF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.38.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		499E5E8E28BB6A82006B5D49 /* AppCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppCore;
+		};
+		499E5E9028BB6A96006B5D49 /* Onboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Onboard;
+		};
+		49B2924C28BB56E0001E01AF /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49B2924B28BB56E0001E01AF /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 49B2921628BB5699001E01AF /* Project object */;
 }
